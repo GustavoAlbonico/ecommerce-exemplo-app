@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+html {
+    background-color: #b8a1c5;
+    font-family: "Acme", sans-serif;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+  }
+.body > div {
+    width: 90%;
+  }
+
+.logo{
+  display: flex;
+}
+
+.logo img {
+    width: 150px;
+    border-radius: 2rem;
+}
+
+.item-carrinho {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 20%;
+  margin-right: 20px;
+}
+
+.item-usuario {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}

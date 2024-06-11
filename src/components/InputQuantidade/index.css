@@ -1,0 +1,27 @@
+.box {
+    display: flex;
+    align-items: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.remover-quantidade {
+    top: 4px;
+    left: 40px;
+    z-index: 1;
+}
+
+.add-quantidade {
+    top: 4px;
+    right: 40px;
+    z-index: 1;
+}
+
+.input-quantidade input {
+    text-align: center;
+}

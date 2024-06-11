@@ -1,0 +1,47 @@
+.container {
+    margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-columns: max-content;
+    gap: 2%;
+    grid-auto-rows: minmax(100px, auto);
+    grid-auto-flow: dense;
+}
+
+.produto {
+    padding: 1rem;
+    border: 2px solid #a45fcc;
+    border-radius: 1rem;
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 #808080;
+    transition: 0.2s;
+}
+
+.produto:hover {
+    box-shadow: 0 5px 14px 0 #000;
+    transform: translateY(-1%);
+}
+
+.produto-imagem {
+    display: block;
+    min-height: 100px;
+    max-height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.produto-imagem img{
+    border: 1px solid #a475c0;
+    height: 230px;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.produto-nome p,
+.produto-preco p {
+    text-align: center;
+    color: #fff;
+}

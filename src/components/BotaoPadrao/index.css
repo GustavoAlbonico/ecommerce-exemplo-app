@@ -1,0 +1,15 @@
+
+.container-botao{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.container-botao button {
+    padding: 10px 35px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: #a45fcc;
+    color: #fff;
+    cursor: pointer;
+}

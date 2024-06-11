@@ -1,0 +1,53 @@
+.container-produto {
+    display: flex;
+    justify-content: center;
+
+    gap: 10px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.produto-detalhes {
+    display: flex;
+    gap: 2rem;
+    width: 60%;
+}
+
+.imagem-produto {
+    display: flex;
+    flex: 1.5;
+}
+
+.imagem-produto img{
+    border: 1px solid #a475c0;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.dados-produto {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.nome-produto {
+    font-weight:700;
+    border-bottom: 2px solid #a45fcc;
+    font-size: 1.5rem;
+}
+
+.codigo-produto {
+    font-size: 12px;
+}
+
+.preco-produto {
+    display: flex;
+    flex-direction: column;
+}
+
+.preco {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
