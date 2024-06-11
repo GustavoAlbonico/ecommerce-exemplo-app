@@ -12,3 +12,10 @@ export const listaGeneros = [
         texto: "Não quero responder",
     }
 ]
+
+export interface ICliente {
+    nome:string,
+    sobrenome:string,
+    cpf:string,
+    genero:string
+}
