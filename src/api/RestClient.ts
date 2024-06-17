@@ -59,7 +59,7 @@ export const apiGet = async (url: string) : Promise<IDataResponse> => {
 export const apiPost = async (url: string, data: any) : Promise<IDataResponse> => {
  
     try {
-        const response: AxiosResponse = await api.post(url, data, {
+        const response: AxiosResponse = await api.post(url, JSON.stringify(data), {
             headers: {
                 "Content-Type": "application/json"
             }

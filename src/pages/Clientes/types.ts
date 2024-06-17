@@ -13,9 +13,9 @@ export const listaGeneros = [
     }
 ]
 
-export interface ICliente {
-    nome:string,
-    sobrenome:string,
-    cpf:string,
-    genero:string
-}
+// export interface ICliente {
+//     nome:string,
+//     sobrenome:string,
+//     cpf:string,
+//     genero:string
+// }
